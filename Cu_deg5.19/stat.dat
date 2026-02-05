@@ -1,0 +1,60 @@
+      2                                               ntype                             fcc_Fe  alpha_vorono=1.225
+      1              1                              ibound     iboundz
+     48             114          60                   trx_box  try_box    trz_box   
+     -1              1         -1                       i_sgl    i_gb   i_interf                  
+      1             -1         -1         -1            i_twist  i_tilt  i_mix   i_twin    
+      1              1                                  i_sym   i_csl      
+      7              1            7            -1       tilt         my       mz       ky      kz
+      84            -1          1           -1            mxy_csl  mz_csl  non_symmetrical  tilt and twin  i_rot_x i_rot_y  
+      9             1           9          -1           twist        mx       my       kx      ky
+        1.0           1.0     -2.0                X-tall for tilt:      x axis - (i j k)
+       -1.0           1.0      0.0                             y axis - (i j k)
+        1.0           1.0      1.0                             z axis - (i j k)
+         1.0         1.0      1.0                  X-tall for twist:    x axis - (i j k)
+        -1.0         0.0      1.0                                       y axis - (i j k)
+         1.0        -2.0      1.0                                       z axis - (i j k)
+      2.5         1.75                                     setarot (degrees)  aTa33max_crit
+     0.5     0.5    0.5                                b1
+    -0.5     -0.5    0.5                               b2
+     1.0      0.0    0                                 b3
+     1      0    0                                  Transf. matrix for i_gb and i_interface
+     0      1    0
+     0      0    1
+     1            1         1                             inb_m      inb_i     inb_c
+    4.25            1                                        RBK
+     1             -1                                        LENTA      KRIST
+    -1             -1                                       NVAC       INT  
+                7441               			                                
+   15.20        15.31      23.56    15.20     15.31     24.36        Xi        Yi         Zi
+     0                                                    maint
+     7         1500         50       100        5         LIMCG     LIMSD     Limdamp     nrec          MGRA
+  0.0000001      0.3     0.00033    0.00055     0.0001      AA        BB        TOLL        EPSS         EPSD 
+  0.000001        1.3        -49                             forlim    SR        Iaccel
+     5           1                                       Nmax      Nfbd
+    -0           -2                                       IV        II
+     0                                                    nimp
+     0                                                    maimp
+     1            1                                       IREL      IREC
+     -1            1                                       IPRDR     IPRV
+    0.0         3.63908770541913          -1                  VIR0 [eV/A**3]       ao          sol
+   -7.8202        0.29         3       899031              Rloop     Dcrow      Dplane      Ncloop
+     -31.4         1          -1                            disl      idisl      idislr      
+     -5           -1                                       iscrew     iedge
+	0.707   0.0         0.0        0.5               bx        by         bz,  alpha
+    -1            0.25                                    iatv      deltap
+  0.0002         0.000            0                         stepex    stepey     nstepm
+   0.35          0.930       3.2831      0.035       bx1        dcn        enerp       ecrit
+     0            0          -8                           ishiftx   ishifty      ivshift
+  -206335         -3.5022                                  Nvoid     Rvoid
+  -1                                                       nvd
+ 42.1553        75.5035        29.2485     3.5022    38.5429    24.4130     30.0   3.5022     xovd   yovd  zovd  rvd
+   -1000          -2.7                                     Nprecip   Rprecip
+  -1                                                       nprcp
+  0.0        0.0        0.0     0.4    3.0000   3.0000     3.0000   1.0000     xoprcp   yoprcp  zoprcp rprcp
+    0             3           6         15                ipy       ipz        npy         npz
+	1       1      1         initial X-tall orientation:   X axis - (i j k)
+   -1      -1      2                                y axis - (i j k)
+	1      -1      0                                z axis - (i j k)
+    1      -1      1            loop X-tall orientation:   X new - (i j k)
+   -1       1      2                                y new - (i j k)
+	1       1      0                                z new - (i j k)
